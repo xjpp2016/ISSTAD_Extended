@@ -1,0 +1,12 @@
+macaroni1 image_auc 92.79 pixel_auc 99.85 best_m_image_auc 92.62 best_r_image_auc 84.57
+macaroni2 image_auc 82.08 pixel_auc 99.56 best_m_image_auc 81.46 best_r_image_auc 70.50
+pcb3 image_auc 96.03 pixel_auc 99.20 best_m_image_auc 95.90 best_r_image_auc 77.23
+pipe_fryum image_auc 91.85 pixel_auc 99.49 best_m_image_auc 91.74 best_r_image_auc 81.70
+fryum image_auc 93.76 pixel_auc 96.14 best_m_image_auc 87.44 best_r_image_auc 93.86
+chewinggum image_auc 95.72 pixel_auc 98.84 best_m_image_auc 93.80 best_r_image_auc 87.22
+pcb1 image_auc 95.85 pixel_auc 99.57 best_m_image_auc 95.84 best_r_image_auc 89.21
+pcb2 image_auc 97.63 pixel_auc 99.26 best_m_image_auc 97.88 best_r_image_auc 88.35
+pcb4 image_auc 98.97 pixel_auc 98.66 best_m_image_auc 98.94 best_r_image_auc 96.60
+candle image_auc 97.84 pixel_auc 99.31 best_m_image_auc 98.13 best_r_image_auc 87.31
+capsules image_auc 94.53 pixel_auc 99.69 best_m_image_auc 94.57 best_r_image_auc 82.63
+cashew image_auc 98.58 pixel_auc 99.09 best_m_image_auc 92.40 best_r_image_auc 98.10

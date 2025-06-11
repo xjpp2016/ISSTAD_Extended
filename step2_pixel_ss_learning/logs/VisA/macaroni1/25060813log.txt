@@ -1,0 +1,9 @@
+image_auc 0.6264000000000001 pixel_auc 0.9020191680166414 m_image_auc 0.5499 r_image_auc 0.6980000000000001
+image_auc 0.6125 pixel_auc 0.9008935472417379 m_image_auc 0.5886 r_image_auc 0.6453
+image_auc 0.6161 pixel_auc 0.9463736728475503 m_image_auc 0.5947999999999999 r_image_auc 0.6209
+image_auc 0.6757 pixel_auc 0.957171454088074 m_image_auc 0.6487 r_image_auc 0.6577999999999999
+image_auc 0.7296 pixel_auc 0.9571181636953601 m_image_auc 0.6981 r_image_auc 0.6909
+image_auc 0.6198 pixel_auc 0.9467787021338151 m_image_auc 0.5981 r_image_auc 0.6451000000000001
+image_auc 0.5705 pixel_auc 0.9796156978392798 m_image_auc 0.5522 r_image_auc 0.5945999999999999
+image_auc 0.6573 pixel_auc 0.9723948645593008 m_image_auc 0.6237 r_image_auc 0.7267
+image_auc 0.6952999999999999 pixel_auc 0.9762712528978207 m_image_auc 0.6591 r_image_auc 0.7043999999999999

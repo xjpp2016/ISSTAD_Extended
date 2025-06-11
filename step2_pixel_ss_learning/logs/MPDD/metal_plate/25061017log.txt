@@ -1,0 +1,2 @@
+image_auc 77.25 pixel_auc 85.61 m_image_auc 71.56 r_image_auc 77.36
+image_auc 91.87 pixel_auc 86.13 m_image_auc 56.01 r_image_auc 92.20
