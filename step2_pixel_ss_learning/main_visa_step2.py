@@ -211,7 +211,6 @@ if __name__ == '__main__':
 
 
                 mean_list.append(((1+mean_of_top(pmap, args.p))**args.w_m) * ((1+mean_of_top(r_admap, args.p))**args.w_r))
-                # mean_list.append(mean_of_top(((1+pmap)**args.w_m) * ((1+rmap)**args.w_r), args.p))
                 m_mean_list.append(mean_of_top(pmap, args.p))
                 r_mean_list.append(mean_of_top(r_admap, args.p))
                 pn_mean_list.append(pn[0])
@@ -258,22 +257,6 @@ if __name__ == '__main__':
                 f.close()
 
                 torch.save(model_ad.state_dict(),  model_saved_path + 'net_ad.pth')
-                # masks_gt_array = np.array(pn_label_list)  # 形状应为 (N, H, W)
-                # segmentations_array = np.array(preimg_list)  # 形状应为 (N, H, W)
-
-                # pixel_apro = compute_pro(masks_gt_array, segmentations_array)
-                # if best_pixel_apro < pixel_apro:
-                #     best_pixel_apro = pixel_apro              
-                #     f = open( auc_saved_path + 'pixel_level_pro_result.txt','w')
-                #     best_pixel_apro_ = best_pixel_apro
-                #     best_pixel_apro_ = "{:.2f}".format(best_pixel_apro_*100)
-                #     print("pixel_pro", best_pixel_apro_, file=f)
-                #     f.close()
-
-                # f = open( log_saved_path + now + 'log.txt','a')
-                # print(
-                #     "pixel_apro", pixel_apro, file=f)
-                # f.close()
 
             if best_m_image_auc < m_image_auc:
                 best_m_image_auc = m_image_auc              

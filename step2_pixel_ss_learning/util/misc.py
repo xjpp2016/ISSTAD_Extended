@@ -21,11 +21,7 @@ import torch.distributed as dist
 from torch import inf
 
 import numpy as np
-import cv2
 import numpy as np
-import pandas as pd
-from sklearn import metrics
-from skimage import measure
 
 
 class SmoothedValue(object):
@@ -345,7 +341,6 @@ def all_reduce_mean(x):
         return x_reduce.item()
     else:
         return x
-    
 
 
 def seed_torch(seed=50):
@@ -361,41 +356,6 @@ def seed_torch(seed=50):
 
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
-
-
-def compute_pro(masks, amaps, num_th=200):
-    df = pd.DataFrame([], columns=["pro", "fpr", "threshold"])
-    binary_amaps = np.zeros_like(amaps, dtype=bool)
-
-    min_th = amaps.min()
-    max_th = amaps.max()
-    delta = (max_th - min_th) / num_th
-
-    k = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
-    for th in np.arange(min_th, max_th, delta):
-        binary_amaps[amaps <= th] = 0
-        binary_amaps[amaps > th] = 1
-
-        pros = []
-        for binary_amap, mask in zip(binary_amaps, masks):
-            binary_amap = cv2.dilate(binary_amap.astype(np.uint8), k)
-            for region in measure.regionprops(measure.label(mask)):
-                axes0_ids = region.coords[:, 0]
-                axes1_ids = region.coords[:, 1]
-                tp_pixels = binary_amap[axes0_ids, axes1_ids].sum()
-                pros.append(tp_pixels / region.area)
-
-        inverse_masks = 1 - masks
-        fp_pixels = np.logical_and(inverse_masks, binary_amaps).sum()
-        fpr = fp_pixels / inverse_masks.sum()
-
-        df = pd.concat([df, pd.DataFrame({"pro": np.mean(pros), "fpr": fpr, "threshold": th}, index=[0])])
-
-    df = df[df["fpr"] < 0.3]
-    df["fpr"] = (df["fpr"] - df["fpr"].min()) / (df["fpr"].max() - df["fpr"].min() + 1e-10)
-
-    pro_auc = metrics.auc(df["fpr"], df["pro"])
-    return pro_auc
 
 
 def mean_of_top(matrix, p=0.3):

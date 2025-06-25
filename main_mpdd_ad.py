@@ -36,10 +36,9 @@ if __name__ == '__main__':
     
     objects_list = ['bracket_black', 'tubes', 'bracket_brown', 'bracket_white', 'connector', 'metal_plate']#
 
-    # data_dir = '/media/j/ex/ISSTAD/data/mdpp/MPDD/'
-    # resize_data_dir = '/media/j/ex/ISSTAD/data/mdpp/resize_data/MPDD/'
     data_dir = '/mnt/mydisk/ISSTAD/data/mdpp/MPDD/'
-    resize_data_dir = '/mnt/mydisk/ISSTAD/data/mdpp/resize_data/MPDD/'  
+    resize_data_dir = '/mnt/mydisk/ISSTAD/data/mdpp/resize_data/MPDD/'
+    
     resize_images(data_dir, resize_data_dir) 
 
     for object_name in objects_list:

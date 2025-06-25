@@ -34,15 +34,11 @@ def resize_images(folder_a, folder_b, target_size=(224, 224)):
 
 if __name__ == '__main__':
     
-    objects_list = ['candle', 'capsules', 'cashew', 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2', 'pcb3', 'pcb4', 'pipe_fryum']#
-    # objects_list = ['capsules', 'cashew']
-    # objects_list = ['chewinggum', 'fryum', 'macaroni1',  'pcb1']
-    #objects_list = ['macaroni2', 'pcb2', 'pcb3', 'pcb4', 'pipe_fryum']
-    objects_list = [ 'macaroni2' , 'pipe_fryum', 'fryum', 'macaroni1', 'chewinggum', 'pcb1', 'pcb2', 'pcb3', 'pcb4', 'candle', 'capsules', 'cashew' ]#
-    objects_list = [ 'macaroni2',  'macaroni1',  'pcb3','pipe_fryum', 'fryum', 'chewinggum', 'pcb1', 'pcb2',  'pcb4', 'candle', 'capsules', 'cashew' ]#
+    objects_list = ['candle', 'capsules', 'cashew', 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2', 'pcb3', 'pcb4', 'pipe_fryum']
 
     data_dir = '/home/j/win11/code/ISSTAD/data/visa/VisA/'
     resize_data_dir = '/home/j/win11/code/ISSTAD/data/visa/resize_data/VisA/'
+    
     resize_images(data_dir, resize_data_dir) 
 
     for object_name in objects_list:
