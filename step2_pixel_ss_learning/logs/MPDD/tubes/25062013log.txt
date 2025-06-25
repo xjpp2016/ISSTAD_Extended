@@ -1,0 +1,15 @@
+image_Ham_auc 38.99 image_W_auc 44.61 image_alpha_auc 44.52 Pixel_Ham_auc 68.68 Pixel_alpha_auc 77.85 Pixel_MAX_auc 78.01
+image_Ham_auc 37.14 image_W_auc 40.04 image_alpha_auc 40.67 Pixel_Ham_auc 76.30 Pixel_alpha_auc 77.43 Pixel_MAX_auc 77.66
+image_Ham_auc 29.89 image_W_auc 42.03 image_alpha_auc 31.25 Pixel_Ham_auc 84.47 Pixel_alpha_auc 85.43 Pixel_MAX_auc 85.38
+image_Ham_auc 30.84 image_W_auc 44.29 image_alpha_auc 34.15 Pixel_Ham_auc 86.41 Pixel_alpha_auc 84.05 Pixel_MAX_auc 83.54
+image_Ham_auc 26.04 image_W_auc 43.12 image_alpha_auc 26.04 Pixel_Ham_auc 89.25 Pixel_alpha_auc 88.28 Pixel_MAX_auc 87.27
+image_Ham_auc 19.88 image_W_auc 47.60 image_alpha_auc 16.35 Pixel_Ham_auc 88.47 Pixel_alpha_auc 88.02 Pixel_MAX_auc 86.89
+image_Ham_auc 22.06 image_W_auc 63.04 image_alpha_auc 18.16 Pixel_Ham_auc 89.32 Pixel_alpha_auc 87.81 Pixel_MAX_auc 86.40
+image_Ham_auc 28.49 image_W_auc 60.19 image_alpha_auc 23.41 Pixel_Ham_auc 89.87 Pixel_alpha_auc 88.15 Pixel_MAX_auc 87.06
+image_Ham_auc 33.02 image_W_auc 68.07 image_alpha_auc 22.28 Pixel_Ham_auc 89.98 Pixel_alpha_auc 89.58 Pixel_MAX_auc 88.55
+image_Ham_auc 47.51 image_W_auc 68.80 image_alpha_auc 15.85 Pixel_Ham_auc 90.38 Pixel_alpha_auc 88.34 Pixel_MAX_auc 87.30
+image_Ham_auc 58.56 image_W_auc 69.66 image_alpha_auc 17.48 Pixel_Ham_auc 91.02 Pixel_alpha_auc 88.48 Pixel_MAX_auc 87.28
+image_Ham_auc 56.48 image_W_auc 69.66 image_alpha_auc 22.37 Pixel_Ham_auc 91.01 Pixel_alpha_auc 88.43 Pixel_MAX_auc 87.08
+image_Ham_auc 61.50 image_W_auc 71.20 image_alpha_auc 29.71 Pixel_Ham_auc 91.62 Pixel_alpha_auc 90.29 Pixel_MAX_auc 88.77
+image_Ham_auc 61.82 image_W_auc 69.70 image_alpha_auc 17.16 Pixel_Ham_auc 92.44 Pixel_alpha_auc 89.11 Pixel_MAX_auc 87.78
+image_Ham_auc 57.74 image_W_auc 66.62 image_alpha_auc 16.58 Pixel_Ham_auc 92.14 Pixel_alpha_auc 89.82 Pixel_MAX_auc 88.33

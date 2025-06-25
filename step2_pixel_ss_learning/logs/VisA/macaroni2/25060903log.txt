@@ -1,0 +1,10 @@
+image_auc 65.20 pixel_auc 98.95 m_image_auc 65.89 r_image_auc 55.06
+image_auc 68.57 pixel_auc 99.28 m_image_auc 69.23 r_image_auc 59.53
+image_auc 66.76 pixel_auc 99.03 m_image_auc 68.41 r_image_auc 57.13
+image_auc 62.21 pixel_auc 99.22 m_image_auc 60.05 r_image_auc 58.67
+image_auc 68.12 pixel_auc 99.22 m_image_auc 68.63 r_image_auc 56.42
+image_auc 71.21 pixel_auc 99.38 m_image_auc 70.34 r_image_auc 58.10
+image_auc 67.88 pixel_auc 99.32 m_image_auc 67.74 r_image_auc 59.64
+image_auc 69.53 pixel_auc 99.36 m_image_auc 70.05 r_image_auc 59.31
+image_auc 70.13 pixel_auc 99.32 m_image_auc 72.28 r_image_auc 59.31
+image_auc 72.98 pixel_auc 99.47 m_image_auc 73.94 r_image_auc 60.26
