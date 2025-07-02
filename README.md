@@ -1,7 +1,5 @@
 # ISSTAD on VisA and MPDD Datasets
 
-## Overview
-
 This repository extends [ISSTAD](https://github.com/xjspin/ISSTAD/) to two additional datasets: **VisA** and **MPDD**, for supplementary experiments beyond the original MVTec AD evaluation.
 
 ## Datasets
