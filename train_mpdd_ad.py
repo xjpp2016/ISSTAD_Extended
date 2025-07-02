@@ -36,8 +36,8 @@ if __name__ == '__main__':
     
     objects_list = ['bracket_black', 'tubes', 'bracket_brown', 'bracket_white', 'connector', 'metal_plate', 'tubes']#
 
-    data_dir = './data/mdpp/MPDD/'
-    resize_data_dir = './data/mdpp/resize_data/MPDD/'
+    data_dir = './data/mpdd/MPDD/'
+    resize_data_dir = './data/mpdd/resize_data/MPDD/'
     
     resize_images(data_dir, resize_data_dir) 
 

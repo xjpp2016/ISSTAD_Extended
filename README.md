@@ -44,12 +44,15 @@ If you encounter the error `No module named 'torch._six'`, modify the file:
 from torch._six import container_abcs
 ```
 
-2. Replacing it with this line:
+2. Replacing it with:
 ```python
 import collections.abc as container_abcs
 ```
+## Data  
+The training and testing data for VisA and MPDD should be placed in the `./data/visa/VisA/` and `./data/mpdd/MPDD/` directories, respectively.
 
-### Run
+
+## Training
 VisA dataset 
 ```bash
 python train_visa_ad.py
@@ -58,3 +61,4 @@ MPDD dataset
 ```bash
 python train_mpdd_ad.py
 ```
+
