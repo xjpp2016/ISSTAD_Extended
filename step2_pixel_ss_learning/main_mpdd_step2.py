@@ -248,6 +248,7 @@ if __name__ == '__main__':
                 Image_alpha_auc_best = image_alpha_auc
             if Pixel_Ham_auc_best < Pixel_Ham_auc:
                 Pixel_Ham_auc_best = Pixel_Ham_auc
+                torch.save(model_ad.state_dict(),  model_saved_path + 'net_ad.pth')
             if Pixel_alpha_auc_best < Pixel_alpha_auc:
                 Pixel_alpha_auc_best = Pixel_alpha_auc
             if Pixel_MAX_auc_best < Pixel_MAX_auc:
