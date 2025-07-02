@@ -41,12 +41,13 @@ If you encounter the error `No module named 'torch._six'`, modify the file:
 
 1. Commenting out this line:
 ```python
-# from torch._six import container_abcs
+from torch._six import container_abcs
+```
 
 2. Replacing it with this line:
 ```python
 import collections.abc as container_abcs
-
+```
 
 ### Run
 VisA dataset 
