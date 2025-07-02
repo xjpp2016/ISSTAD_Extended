@@ -35,6 +35,19 @@ tqdm==4.64.1
 
 The code is executable on Windows systems, and if running on Linux, it requires execution on a disk with an NTFS file system. Otherwise, the results may degrade, especially for the localization result on the MVTec AD dataset.
 
+**Note**: The `timm` version must be **0.3.2**.  
+If you encounter the error `No module named 'torch._six'`, modify the file:  
+`site-packages/timm/models/layers/helpers.py` by:
+
+1. Commenting out this line:
+```python
+# from torch._six import container_abcs
+
+2. Replacing it with this line:
+```python
+import collections.abc as container_abcs
+
+
 ### Run
 VisA dataset 
 ```bash
