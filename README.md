@@ -62,3 +62,23 @@ MPDD dataset
 python train_mpdd_ad.py
 ```
 
+## Generate Heatmaps with a Single Command
+VisA dataset 
+```bash
+python get_result_visa.py
+```
+MPDD dataset
+```bash
+python get_result_mpdd.py
+```
+
+### Citation
+If you find this work helpful, please consider citing:
+```
+@article{jin2023isstad,
+  title={ISSTAD: Incremental self-supervised learning based on transformer for anomaly detection and localization},
+  author={Jin, Wenping and Guo, Fei and Zhu, Li},
+  journal={arXiv preprint arXiv:2303.17354},
+  year={2023}
+}
+```
