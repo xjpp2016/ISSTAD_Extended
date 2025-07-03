@@ -6,7 +6,7 @@ from PIL import Image
 
 if __name__ == '__main__':
     
-    objects_list = ['candle', 'capsules', 'cashew', 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2', 'pcb3', 'pcb4', 'pipe_fryum']
+    objects_list = ['bottle', 'cable', 'capsule',  'carpet', 'grid', 'hazelnut', 'leather', 'metal_nut', 'pill', 'screw', 'tile', 'toothbrush', 'transistor', 'wood', 'zipper']
 
     data_dir = './data/visa/VisA/'
     maps_dir = './result/maps/VisA/' 

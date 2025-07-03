@@ -6,7 +6,7 @@ from PIL import Image
 
 if __name__ == '__main__':
     
-    objects_list = ['bracket_black', 'tubes', 'bracket_brown', 'bracket_white', 'connector', 'metal_plate', 'tubes']#
+    objects_list = ['bracket_black','bracket_brown', 'bracket_white', 'connector', 'metal_plate', 'tubes']#
 
     data_dir = './data/mpdd/MPDD/'
     maps_dir = './result/maps/MPDD/' 
