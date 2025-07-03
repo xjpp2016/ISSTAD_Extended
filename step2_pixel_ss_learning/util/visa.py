@@ -139,7 +139,7 @@ def ob_p(args):
         args.p = 0.1
         args.w_m = 1
         args.w_r = 0.01
-        args.num_epochs = 100
+        args.num_epochs = 200
         args.rad_max = 2
         args.aug_type = 'new'
     elif 'capsules' == args.object_name:
@@ -153,7 +153,7 @@ def ob_p(args):
         args.p = 0.1
         args.w_m = 1
         args.w_r = 1
-        args.num_epochs = 100
+        args.num_epochs = 200
         args.rad_max = 2
         args.aug_type = 'old'
     elif 'chewinggum' == args.object_name:
@@ -167,7 +167,7 @@ def ob_p(args):
         args.p = 0.1
         args.w_m = 0.1
         args.w_r = 1
-        args.num_epochs = 100
+        args.num_epochs = 200
         args.rad_max = 2
         args.aug_type = 'old'
     elif 'macaroni1' == args.object_name: 
@@ -202,14 +202,14 @@ def ob_p(args):
         args.p = 0.1
         args.w_m = 1
         args.w_r = 0.01
-        args.num_epochs = 100
+        args.num_epochs = 200
         args.rad_max = 2
         args.aug_type = 'new'
     elif 'pcb4' == args.object_name: 
         args.p = 0.1
         args.w_m = 1
         args.w_r = 1
-        args.num_epochs = 100
+        args.num_epochs = 200
         args.rad_max = 2
         args.aug_type = 'old'
     elif 'pipe_fryum' == args.object_name: 
