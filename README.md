@@ -7,6 +7,9 @@ This repository extends [ISSTAD](https://github.com/xjspin/ISSTAD/) to two addit
 - **VisA**: [https://github.com/amazon-science/spot-diff](https://github.com/amazon-science/spot-diff)  
 - **MPDD**: [https://github.com/stepanje/MPDD](https://github.com/stepanje/MPDD)
 
+Alternatively, you can use our **pre-organized dataset collection**, hosted on Hugging Face for direct use:  
+👉 [https://huggingface.co/datasets/xjpha/ISSTAD_Data/tree/main](https://huggingface.co/datasets/xjpha/ISSTAD_Data/tree/main)
+
 ## Pretrained MAE Model
 
 Please download the pretrained MAE model from the official release:  
