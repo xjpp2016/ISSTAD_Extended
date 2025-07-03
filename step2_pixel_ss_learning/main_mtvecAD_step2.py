@@ -262,7 +262,7 @@ if __name__ == '__main__':
     Pixel_MAX_auc_best_ = "{:.2f}".format(Pixel_MAX_auc_best*100)
     
     today = time.strftime("%Y-%m-%d", time.localtime())
-    f = open( './result/auc/MVTecAD/all_result' + today +'_old.txt','a')
+    f = open( './result/auc/MVTecAD/all_result' + today +'.txt','a')
 
     print(args.object_name, 
           "Image_Ham_auc_best_", Image_Ham_auc_best_ ,
