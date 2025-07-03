@@ -1,0 +1,1 @@
+image_Ham_auc 66.54 image_W_auc 52.18 image_alpha_auc 50.50 Pixel_Ham_auc 87.53 Pixel_alpha_auc 87.08 Pixel_MAX_auc 86.28
