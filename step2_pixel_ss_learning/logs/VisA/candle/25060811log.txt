@@ -1,5 +1,0 @@
-image_auc 0.9699 pixel_auc 0.9930678915615511 m_image_auc 0.9727999999999999 r_image_auc 0.8443
-image_auc 0.9693 pixel_auc 0.9911117267834489 m_image_auc 0.967 r_image_auc 0.841
-image_auc 0.9477 pixel_auc 0.987149563326024 m_image_auc 0.9459000000000001 r_image_auc 0.8449
-image_auc 0.9266 pixel_auc 0.9895423249846155 m_image_auc 0.9192000000000001 r_image_auc 0.843
-image_auc 0.9653 pixel_auc 0.9897834949229929 m_image_auc 0.969 r_image_auc 0.8427
