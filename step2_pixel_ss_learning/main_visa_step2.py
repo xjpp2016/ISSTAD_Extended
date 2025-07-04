@@ -275,3 +275,16 @@ if __name__ == '__main__':
     f.close()
 
 
+    f = open( './result/auc/VisA/W_img_H_pixel_result' + today +'.txt','a')
+    print(args.object_name, 
+          "Image_W_auc_best_", Image_W_auc_best_ ,
+          "Pixel_Ham_auc_best_", Pixel_Ham_auc_best_ ,
+           file=f)
+    f.close()
+
+    f = open( './result/auc/VisA/H_img_H_pixel_result' + today +'.txt','a')
+    print(args.object_name, 
+          "Image_Ham_auc_best_", Image_Ham_auc_best_ ,
+          "Pixel_Ham_auc_best_", Pixel_Ham_auc_best_ ,
+           file=f)
+    f.close()
