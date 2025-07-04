@@ -7,6 +7,8 @@ This repository extends [ISSTAD](https://github.com/xjspin/ISSTAD/) to two addit
 - **VisA**: [https://github.com/amazon-science/spot-diff](https://github.com/amazon-science/spot-diff)  
 - **MPDD**: [https://github.com/stepanje/MPDD](https://github.com/stepanje/MPDD)
 
+The training and testing data for VisA and MPDD should be placed in the `./data/visa/VisA/` and `./data/mpdd/MPDD/` directories, respectively.
+
 Alternatively, you can use our **pre-organized dataset collection**, hosted on Hugging Face for direct use:  
 👉 [https://huggingface.co/datasets/xjpha/ISSTAD_Data/tree/main](https://huggingface.co/datasets/xjpha/ISSTAD_Data/tree/main)
 
@@ -49,8 +51,7 @@ from torch._six import container_abcs
 ```python
 import collections.abc as container_abcs
 ```
-## Data  
-The training and testing data for VisA and MPDD should be placed in the `./data/visa/VisA/` and `./data/mpdd/MPDD/` directories, respectively.
+
 
 
 ## Training
