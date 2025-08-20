@@ -91,6 +91,7 @@ author = {Wenping Jin and Fei Guo and Qi Wu and Li Zhu},
 keywords = {Anomaly detection, Vision transformer, Masked autoencoder, Pixel-level self-supervised learning},
 }
 ```
+
 ```
 @article{jin2023isstad,
   title={ISSTAD: Incremental self-supervised learning based on transformer for anomaly detection and localization},
